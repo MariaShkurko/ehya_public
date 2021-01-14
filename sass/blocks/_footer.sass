@@ -1,0 +1,51 @@
+.footer
+  padding: 128px 0 131px
+  &-wrapper
+    display: grid
+    grid-template-columns: 263px repeat(4, minmax(165px, max-content))
+    grid-auto-rows: max-content
+    column-gap: 30px
+    row-gap: 48px
+  &-logo
+    display: block
+    margin-bottom: 26px
+    &__image
+      width: 90px
+  &-text
+    margin: 0 0 29px
+    font-size: 16px
+    line-height: 28px
+  &-social-networks
+    &__link
+      width: 42px
+      margin-right: 2px
+      text-decoration: none
+    &__image
+      &:hover
+        background-color: rgba(21, 37, 72, 0.1)
+        border-radius: 50%
+  &__title
+    margin: 0 0 31px
+    font-weight: bold
+    font-size: 18px
+    line-height: 25px
+  &-list
+    margin: 0
+    padding: 0
+    list-style: none
+    &__item
+      font-size: 16px
+      line-height: 22px
+      margin-bottom: 24px
+      color: $dark-color
+      &:nth-last-child(1)
+        margin-bottom: 0
+    &__link
+      text-decoration: none
+      color: inherit
+      &:hover
+        color: $link-color
+.twitter
+  margin-right: 3px
+.instagram
+  margin-right: 4px

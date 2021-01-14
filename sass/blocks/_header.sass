@@ -1,0 +1,45 @@
+.header
+  padding: 26px 0
+  background-color: $bg-color
+  &-wrapper
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &-menu-button
+    display: none
+.navbar
+  display: flex
+  align-items: center
+  &__close
+    display: none
+  &-menu
+    display: flex
+    margin: 0
+    padding: 0
+    list-style: none
+    &__item
+      margin-right: 40px
+      font-weight: 600
+      font-size: 16px
+      line-height: 22px
+    &__link
+      text-decoration: none
+      color: inherit
+      &:hover
+        color: $link-color
+  &-button
+    margin-left: 10px
+    padding: 11px 22px
+    background-color: transparent
+    border: 2px solid $link-color
+    border-radius: 8px
+    color: $link-color
+    font-weight: 700
+    font-size: 16px
+    line-height: 22px
+    cursor: pointer
+    &:focus
+      outline: none
+    &:hover
+      background-color: rgba(21, 37, 72, 0.1)
+      filter: drop-shadow(0px 10px 25px rgba(21, 37, 72, 0.1))
